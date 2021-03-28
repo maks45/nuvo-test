@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_margin="2dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCurrencyCode"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCurrencyName"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUsdExchangeRate"
+        android:padding="5dp"
+        />
+</LinearLayout>
