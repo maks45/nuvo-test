@@ -93,7 +93,7 @@ class MainActivityViewModel @Inject constructor(
     }
 
     fun checkTime() {
-        if ((Calendar.getInstance().time.time - lastUpdate) / (1000 * 60) > CHECK_TIME_INTERVAL) {
+        if ((Calendar.getInstance().time.time - lastUpdate) / (1000 * 60) >= CHECK_TIME_INTERVAL) {
             messageLiveData.postValue(getLastUpdateTime())
         } else {
             messageLiveData.postValue("")
